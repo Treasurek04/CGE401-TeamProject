@@ -15,7 +15,7 @@ C:/UnityProjects/CGE401-TeamProject/Midnight Heist
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64487
+64886
 Successfully changed project path to: C:/UnityProjects/CGE401-TeamProject/Midnight Heist
 C:/UnityProjects/CGE401-TeamProject/Midnight Heist
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/UnityProjects/CGE401-TeamProject/Midnight Heist
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3332] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 2261752888 [EditorId] 2261752888 [Version] 1048832 [Id] WindowsEditor(7,SilverSwift) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27264] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 3477156472 [EditorId] 3477156472 [Version] 1048832 [Id] WindowsEditor(7,SilverSwift) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3332] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 2261752888 [EditorId] 2261752888 [Version] 1048832 [Id] WindowsEditor(7,SilverSwift) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27264] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 3477156472 [EditorId] 3477156472 [Version] 1048832 [Id] WindowsEditor(7,SilverSwift) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Unity/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011150 seconds.
-- Loaded All Assemblies, in  0.551 seconds
+Registered in 0.008146 seconds.
+- Loaded All Assemblies, in  0.501 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.417 seconds
-Domain Reload Profiling: 965ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (161ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (154ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (201ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (176ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (418ms)
+	FinalizeReload (398ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (328ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 965ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.026 seconds
-Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.844 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.030 seconds
-Domain Reload Profiling: 2051ms
-	BeginReloadAssembly (279ms)
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1751ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (484ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (522ms)
+		LoadAssemblies (386ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (236ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1031ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (910ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (786ms)
+		SetupLoadedEditorAssemblies (696ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (628ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (562ms)
 			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3566.
-Memory consumption went from 142.4 MB to 142.3 MB.
-Total: 6.355800 ms (FindLiveObjects: 0.367600 ms CreateObjectMapping: 0.137600 ms MarkObjects: 5.652000 ms  DeleteObjects: 0.196500 ms)
+Memory consumption went from 142.4 MB to 142.4 MB.
+Total: 4.604600 ms (FindLiveObjects: 0.363600 ms CreateObjectMapping: 0.145300 ms MarkObjects: 3.915200 ms  DeleteObjects: 0.178100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,793 +183,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 458171.835746 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_02_anim.fbx
-  artifactKey: Guid(997f2f2ffec3ffb418ca799634966b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_02_anim.fbx using Guid(997f2f2ffec3ffb418ca799634966b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52af95eda759d5960d211e498cbbc486') in 0.205714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Medieval Castle/Art/Textures/CastleWallTexture.png
-  artifactKey: Guid(ba3f95b2ca63fdf4d93409dda1c25f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Textures/CastleWallTexture.png using Guid(ba3f95b2ca63fdf4d93409dda1c25f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37e1b54c096a57ae5a734e0fc2a2d6f1') in 0.085101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs
-  artifactKey: Guid(d48863a3e3916df408151fabe9130598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs using Guid(d48863a3e3916df408151fabe9130598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '657dea2f6d8bf6e156832906ea2fc1ec') in 0.021496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Medieval Castle/Art/Textures/CasaATextura.png
-  artifactKey: Guid(e9e492f79fd5a404c9b12c7cb71d49a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Textures/CasaATextura.png using Guid(e9e492f79fd5a404c9b12c7cb71d49a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf6b9182a0271f1f35314e63e1e68f4a') in 0.039094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_03_anim_ctrl.controller
-  artifactKey: Guid(daaf5fbb6b9262f428757b8b718ffbe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_03_anim_ctrl.controller using Guid(daaf5fbb6b9262f428757b8b718ffbe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e7d57c0d4ea20e1b89d8c1199b095ed7') in 0.037020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Castle/Art/Model/Bridge.fbx
-  artifactKey: Guid(a18e05c3226dd274caeb4a43212e40c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Bridge.fbx using Guid(a18e05c3226dd274caeb4a43212e40c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5d83e9fc59733c648e04fa80a8a89cdd') in 0.081925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Grass_Green_01.png
-  artifactKey: Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Grass_Green_01.png using Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c7f50b2b3b161e25e5382d338633dd18') in 0.056691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Crossbow_02_anim_ctrl.controller
-  artifactKey: Guid(387a39c837afe5a4d9aee5a6fd1da81b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Crossbow_02_anim_ctrl.controller using Guid(387a39c837afe5a4d9aee5a6fd1da81b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b4ff41b2db5e99baff2992b84da53d68') in 0.020395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Castle/Art/Textures/CastleTexture.png
-  artifactKey: Guid(d10822b4cca708f44ade4fcb63a76e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Textures/CastleTexture.png using Guid(d10822b4cca708f44ade4fcb63a76e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04f6a7908d9702fefcf3d854cc4bd91d') in 0.046326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader.shader
-  artifactKey: Guid(69e2e8c890f00e04e945ccd10e764372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader.shader using Guid(69e2e8c890f00e04e945ccd10e764372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1d0c2851ecfa57cbc11b684127c10ba1') in 0.036784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Medieval Castle/Art/Textures/CastleTopTexture.png
-  artifactKey: Guid(67ad61ea1fd446b468fe7992fbb3455b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Textures/CastleTopTexture.png using Guid(67ad61ea1fd446b468fe7992fbb3455b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bdac989a3e6fa570d99ad4a7d9ee7300') in 0.052349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Medieval Castle/Art/Floor.mat
-  artifactKey: Guid(2c198d9e37e61244498aa9d1ab419899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Floor.mat using Guid(2c198d9e37e61244498aa9d1ab419899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fe33aa98c7a9b8de5fe9cd87a478c176') in 0.022716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_01_anim_ctrl.controller
-  artifactKey: Guid(a6a89b3dc290d46458405a7536984a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_01_anim_ctrl.controller using Guid(a6a89b3dc290d46458405a7536984a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aa1d77d42940592aca1bf25add317596') in 0.019607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Prefabs/PT_Longsword_01_a.prefab
-  artifactKey: Guid(e18213b527e9be54d9513ce2dd5f3b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Prefabs/PT_Longsword_01_a.prefab using Guid(e18213b527e9be54d9513ce2dd5f3b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '32a0cfa799a69cec8170545e5cf2dff6') in 0.040865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Sources/Materials/PT_mat.mat
-  artifactKey: Guid(741114174bb42e0458ead3dc0d64ab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Sources/Materials/PT_mat.mat using Guid(741114174bb42e0458ead3dc0d64ab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '311cfc0e3ab963eb2ac34507924079a4') in 0.024663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_body.prefab
-  artifactKey: Guid(b7624b0c965dd5d47b0a828ad37b45cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_body.prefab using Guid(b7624b0c965dd5d47b0a828ad37b45cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b20c8a02e556fc73f1dea066a047223f') in 0.035969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_ShortWaraxe_01_a.fbx
-  artifactKey: Guid(26d0f06f49ccffc4aa3914dcc228acab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_ShortWaraxe_01_a.fbx using Guid(26d0f06f49ccffc4aa3914dcc228acab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f185bd000d551f3dffd1f865c39c1110') in 0.043161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Props/Sources/Shaders/PT_Props_Shader.shader
-  artifactKey: Guid(4e5c65c1d3e8564479e1074db8a9989f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Props/Sources/Shaders/PT_Props_Shader.shader using Guid(4e5c65c1d3e8564479e1074db8a9989f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e692680d6d7572d4bfcdf0347656e37a') in 0.035589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/PT_Lowpoly_Armors_Male_Moduar_Free.prefab
-  artifactKey: Guid(23f907c94ad92894495c02b43a563c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/PT_Lowpoly_Armors_Male_Moduar_Free.prefab using Guid(23f907c94ad92894495c02b43a563c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '292b505e0702f281fdfd72ff758f108e') in 0.061783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 286
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Castle/Scenes/Demo.unity
-  artifactKey: Guid(4e0b2b51b6662be4f9d98e95645aff16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Scenes/Demo.unity using Guid(4e0b2b51b6662be4f9d98e95645aff16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '10f50ac79dd026adc9fefa305b61d0df') in 0.021793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6cad6242908ccde66edcbc2489e118b1') in 0.019740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Polytope Studio/PT_Lowpoly_Modular_Armors_Doc.pdf
-  artifactKey: Guid(7fa4f70b1f3c72349ba83737d6c2148f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/PT_Lowpoly_Modular_Armors_Doc.pdf using Guid(7fa4f70b1f3c72349ba83737d6c2148f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1f94ab61fbe4ad704295d73ed15c7b2') in 0.018916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_Quiver_01_a.fbx
-  artifactKey: Guid(f035c24b817b786438291771177b532d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_Quiver_01_a.fbx using Guid(f035c24b817b786438291771177b532d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ea22b6ead6fbbb45c91058e841ad639b') in 0.043795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Medieval Castle/Art/Model/Materials/CastleTopTexture.mat
-  artifactKey: Guid(a93345ffcfb51d541bf4d8f2e361ec6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Materials/CastleTopTexture.mat using Guid(a93345ffcfb51d541bf4d8f2e361ec6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '113f09db76e243542794e93ce93001cb') in 0.024203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Animations/PT_Pose_01.fbx
-  artifactKey: Guid(fe7e68b2be2cc23428459b55fee65321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Animations/PT_Pose_01.fbx using Guid(fe7e68b2be2cc23428459b55fee65321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2fe6018f5fd91e7b3c00e4350dd863da') in 0.090181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Medieval Castle/Art/Model/Materials/CastleTowerBTexture.mat
-  artifactKey: Guid(d109c562280f9fd4781d5063646e527c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Materials/CastleTowerBTexture.mat using Guid(d109c562280f9fd4781d5063646e527c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '291bdc6762d8e7c9e5142c938122c8a3') in 0.028946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Rocks_mat.mat
-  artifactKey: Guid(93415edde47040648869ae6638d33ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Rocks_mat.mat using Guid(93415edde47040648869ae6638d33ced) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52b556637c0cf5323eb4302cca6ff22d') in 0.139842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_cloth_00_boots.prefab
-  artifactKey: Guid(0508fdc640bd04744a4cfbe55a151dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_cloth_00_boots.prefab using Guid(0508fdc640bd04744a4cfbe55a151dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ddf4772c00cf9509de781aa847bc47c3') in 0.037571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_boots.prefab
-  artifactKey: Guid(4c499b6e6770c594d8a220316f6fbbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_boots.prefab using Guid(4c499b6e6770c594d8a220316f6fbbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '61021177b863c7f8706f376c040e47fa') in 0.034250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_helmet.prefab
-  artifactKey: Guid(e8e41ab9eb069a3418e6a1cd13465fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_helmet.prefab using Guid(e8e41ab9eb069a3418e6a1cd13465fff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fb7622f26a6c282e9cf17e7bc75ceb48') in 0.037185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_body.prefab
-  artifactKey: Guid(e66d4cc425023c246b63c04357f51885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_body.prefab using Guid(e66d4cc425023c246b63c04357f51885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bae112dbfa987386f1917900f7c456f8') in 0.040462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat
-  artifactKey: Guid(c681da389980e45469889866404b0744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Props/Sources/Materials/PT_Props_mat.mat using Guid(c681da389980e45469889866404b0744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a5bd590b13b1ca1ed1df8d54855c39e') in 0.027977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Medieval Castle/Art/Model/Wall.fbx
-  artifactKey: Guid(38b797ba6cc77df40a51cd3200365644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Wall.fbx using Guid(38b797ba6cc77df40a51cd3200365644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c3c5315022cc1f846a45ff5a8cc0ef13') in 0.042560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
+  Time since last request: 458263.491076 seconds.
   path: Assets/Medieval Castle/Art/Model/Castle.fbx
-  artifactKey: Guid(d8d157ebfb23cdf4ba94e99d8458f7d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Castle.fbx using Guid(d8d157ebfb23cdf4ba94e99d8458f7d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '95bffac44cb98efcd011d02b0e63af8d') in 0.039061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Medieval Castle/Prefabs/House B.prefab
-  artifactKey: Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Prefabs/House B.prefab using Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '597c68c86311ab55addbdc0bc5624860') in 0.040137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
-  artifactKey: Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png using Guid(5733ec0c27e7c9d41a230d27ca7b85d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd49ea8e3a2762b07b2f5ac1f8bb4e516') in 0.042887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_cape.prefab
-  artifactKey: Guid(9f92e6a2715699a4bbb4fb210b9dcbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_cape.prefab using Guid(9f92e6a2715699a4bbb4fb210b9dcbbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f9e127beb445938b801686cf3d76a335') in 0.034203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Medieval Castle/Art/Textures/CastleTowerTexture.png
-  artifactKey: Guid(4f5f584a2b663ea4bb16a52da4041720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Textures/CastleTowerTexture.png using Guid(4f5f584a2b663ea4bb16a52da4041720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '11bcfde794b10a1e3afd049d552de10e') in 0.040559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat
-  artifactKey: Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat using Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0291c0444da8a5280e127d7891b89008') in 0.025113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_legs.prefab
-  artifactKey: Guid(8d6125416b1a48943a8b697de8836b39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_legs.prefab using Guid(8d6125416b1a48943a8b697de8836b39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7cb1b457ebd6fc7b10da1398ae8cff26') in 0.036706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_head_10.prefab
-  artifactKey: Guid(986ab30b3a49164469344a0f75092c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_head_10.prefab using Guid(986ab30b3a49164469344a0f75092c2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d3967cf25b073c164320c9534ef6f51') in 0.036600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx
-  artifactKey: Guid(f226223b3a11d2d4b980aaa520301583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx using Guid(f226223b3a11d2d4b980aaa520301583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c2266798fb38a194fdadc51ac449bcb2') in 0.038757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Male_Moduar_Free.fbx
-  artifactKey: Guid(45f944a4396b0a54398eb1abe6743296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Male_Moduar_Free.fbx using Guid(45f944a4396b0a54398eb1abe6743296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '402b29424b39aa393f9fa3dc4d7849ca') in 0.117645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 286
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Medieval Castle/Art/Model/Houses.fbx
-  artifactKey: Guid(4537ab35a0f3c5d4491b0986d90893da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Art/Model/Houses.fbx using Guid(4537ab35a0f3c5d4491b0986d90893da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'efefd714f7b2dfc3c3bc22ab868e6311') in 0.049039 seconds
+  artifactKey: Guid(d8d157ebfb23cdf4ba94e99d8458f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Castle/Art/Model/Castle.fbx using Guid(d8d157ebfb23cdf4ba94e99d8458f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a0906d8ee5374c440274a9201ac41b') in 0.205021 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Props/Sources/Meshes/PT_Chest_01.fbx
-  artifactKey: Guid(07b3d4735fd641f45831885f468d019d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Props/Sources/Meshes/PT_Chest_01.fbx using Guid(07b3d4735fd641f45831885f468d019d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d18456f0240e7f03453a2d4d6a18722') in 0.044979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_04_anim_ctrl.controller
-  artifactKey: Guid(908346fc7297bbc449c368fa3f35453e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_04_anim_ctrl.controller using Guid(908346fc7297bbc449c368fa3f35453e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a09e2314539d38103db91b6f7f1eb540') in 0.020328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Sources/Shaders/PT_Weapons_Shader_Toon.shader
-  artifactKey: Guid(833ce0ee2e7ec874c8319f78d3c6394b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Sources/Shaders/PT_Weapons_Shader_Toon.shader using Guid(833ce0ee2e7ec874c8319f78d3c6394b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a69746bf0a719a16babe701baf708a8c') in 0.033186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_helmet.prefab
-  artifactKey: Guid(2f563e5cb5f70904492fb219cfb82854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_helmet.prefab using Guid(2f563e5cb5f70904492fb219cfb82854) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9b824737830ed9c054ee600771eaf2a6') in 0.035650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Textures/PT_Coat_of_Arms_01.png
-  artifactKey: Guid(d294e9544b9eca64188ea9d2482ea8a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Textures/PT_Coat_of_Arms_01.png using Guid(d294e9544b9eca64188ea9d2482ea8a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '145b7e3d0e9f03eff3ac3468888b3958') in 0.040108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader
-  artifactKey: Guid(270965b004462ae41bd125bc783c0fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader using Guid(270965b004462ae41bd125bc783c0fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd74896731f7d87e6c6beed33febefc79') in 0.028048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_boots.prefab
-  artifactKey: Guid(74c9496fdb940f64ebc5acb263fc8f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_boots.prefab using Guid(74c9496fdb940f64ebc5acb263fc8f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aef272b7170495fea80c9bab2103dbc6') in 0.034458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_01.fbx
-  artifactKey: Guid(0dfa6027d24af53429ffb63261cd762b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_01.fbx using Guid(0dfa6027d24af53429ffb63261cd762b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55114804d94120bf87cbef5463b2d9bf') in 0.038756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_helmet.fbx
-  artifactKey: Guid(6222aaa7509dbc44a802234f21156be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_helmet.fbx using Guid(6222aaa7509dbc44a802234f21156be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f39946b56449e2e9d88e03feaf0281ae') in 0.038420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_legs.fbx
-  artifactKey: Guid(dc2b6e47022afb045bf73b0665ae9e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_legs.fbx using Guid(dc2b6e47022afb045bf73b0665ae9e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66008bcd60b9172a71bfc030d9118fdb') in 0.041196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_legs.fbx
-  artifactKey: Guid(7b307b9dd3880b3438a0635e135ff960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_legs.fbx using Guid(7b307b9dd3880b3438a0635e135ff960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e431d0240de254b7a44c3511c1bd1b8c') in 0.038955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_beard_20.fbx
-  artifactKey: Guid(08a4cd535f1169744bccbf89740bb64f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_beard_20.fbx using Guid(08a4cd535f1169744bccbf89740bb64f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c876f8c99a147aa255141f11617c9473') in 0.040208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_legs.fbx
-  artifactKey: Guid(250dbec7e556f2d44ba10bbab313e688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_legs.fbx using Guid(250dbec7e556f2d44ba10bbab313e688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '995a856b41658b24539373faa4745394') in 0.042142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Medieval Castle/Prefabs/Tower A.prefab
-  artifactKey: Guid(0b0315988d4640f4f8028117c16b74e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Medieval Castle/Prefabs/Tower A.prefab using Guid(0b0315988d4640f4f8028117c16b74e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9893af28709fb02730fdfe0ec530ac58') in 0.039574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_boots.fbx
-  artifactKey: Guid(88a5733a5e7166f40b75124fd9e25fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_boots.fbx using Guid(88a5733a5e7166f40b75124fd9e25fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f9cfd0bac96b720b2bd34bbca3b9399c') in 0.040914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_gauntlets.prefab
-  artifactKey: Guid(698825c61ebeb0a46a328bf3d2318532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_gauntlets.prefab using Guid(698825c61ebeb0a46a328bf3d2318532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3c6c9f09a3991b58ae30d7d8a0e2489d') in 0.030490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Generic_Tree_01_green.fbx
-  artifactKey: Guid(92485ef01ec03d8438fe7af0b3409dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Generic_Tree_01_green.fbx using Guid(92485ef01ec03d8438fe7af0b3409dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd2d104241777f29da12647439a4096b') in 0.048177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_10.fbx
-  artifactKey: Guid(fcb885db32e9b0d489fbd082ffab864f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_10.fbx using Guid(fcb885db32e9b0d489fbd082ffab864f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cf9c7f521f50dde3915ec2a0aa6aeec6') in 0.040929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_gauntlets.fbx
-  artifactKey: Guid(c9f10f187b5606f48a19ada3a6461114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_gauntlets.fbx using Guid(c9f10f187b5606f48a19ada3a6461114) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '36181ced20e225e6274812ce2f513fe1') in 0.043409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_naked_00_body.fbx
-  artifactKey: Guid(8887419e26ffdd444ad1b5b3f79500b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_naked_00_body.fbx using Guid(8887419e26ffdd444ad1b5b3f79500b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b6491d690a9a804b680be43d55d4d5bd') in 0.047073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_cloth_00_body.fbx
-  artifactKey: Guid(0d8fb80a9d5d2454aadd55b58c037ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_cloth_00_body.fbx using Guid(0d8fb80a9d5d2454aadd55b58c037ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ddb92b2de558df2437f9522a5cac5ef9') in 0.048098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_cloth_00_legs.fbx
-  artifactKey: Guid(0ff00be3e6db84345afdfd11216675d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_cloth_00_legs.fbx using Guid(0ff00be3e6db84345afdfd11216675d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b6d17423a8bf7b5f718063ac15e2cdf') in 0.043881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/Editor/PT_Create_Prefab_Editor.cs
-  artifactKey: Guid(08d6341968358694e81b5e6a039178b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/Editor/PT_Create_Prefab_Editor.cs using Guid(08d6341968358694e81b5e6a039178b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '34df2a0bac55a61023a077971f6b8dcb') in 0.020282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_hair_20.prefab
-  artifactKey: Guid(def9ac685dec5fe428e62eab288af3fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_hair_20.prefab using Guid(def9ac685dec5fe428e62eab288af3fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '86b322b12f106a95b6b4cdb6add0c988') in 0.033689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_helmet.fbx
-  artifactKey: Guid(4a2ef57cb8a48b14cbf9be568b42a283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_helmet.fbx using Guid(4a2ef57cb8a48b14cbf9be568b42a283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c6a4becbb5c642f7f068c6faf9c2849a') in 0.038435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_boots.prefab
-  artifactKey: Guid(7c8da33532be64f4f9389d54cb078c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_naked_00_boots.prefab using Guid(7c8da33532be64f4f9389d54cb078c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '61e4eba8bb53c13966f6bfd6c7d1e093') in 0.035069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_head_01.prefab
-  artifactKey: Guid(93928b12d3f49ec4c9144d1f614f088c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_head_01.prefab using Guid(93928b12d3f49ec4c9144d1f614f088c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13ebffa2cff1bc160d77cca7242511ea') in 0.032735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_naked_00_legs.fbx
-  artifactKey: Guid(b458c6e927d4f74409a8c85099064d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_naked_00_legs.fbx using Guid(b458c6e927d4f74409a8c85099064d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1b2b615e1aea7fc9f0bd38eb417e0679') in 0.055637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_head_01.fbx
-  artifactKey: Guid(307848df6b66de44b9d8be04bfda3824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_head_01.fbx using Guid(307848df6b66de44b9d8be04bfda3824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '122b232c6a2c928157934f99b57df384') in 0.057962 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_body.fbx
-  artifactKey: Guid(19290ff456fcb03459883525adaf7dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_body.fbx using Guid(19290ff456fcb03459883525adaf7dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b37b2f28231ed050a92346fdb9cee6be') in 0.059378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_naked_gauntlets.prefab
-  artifactKey: Guid(9774cd6244381e74580570869f544432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_naked_gauntlets.prefab using Guid(9774cd6244381e74580570869f544432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e04a552b7c29cd7dafd9c6780093e045') in 0.036270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_02_anim_ctrl.controller
-  artifactKey: Guid(cc2342152c68a7c4c83a3020febe08d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_02_anim_ctrl.controller using Guid(cc2342152c68a7c4c83a3020febe08d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8c99bb0caa04262e3d5523ccf6276ef') in 0.020109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_legs.prefab
-  artifactKey: Guid(2fd7b97df57b8b245954f8296e7d9be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_01_A_legs.prefab using Guid(2fd7b97df57b8b245954f8296e7d9be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9a6f101f9fb317528beba63c611e134a') in 0.038191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Demos/Armors_Free_Pack/Helpers/Ground_Layer.terrainlayer
-  artifactKey: Guid(75c4c18b5ee1292498ee87757b7c1799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Demos/Armors_Free_Pack/Helpers/Ground_Layer.terrainlayer using Guid(75c4c18b5ee1292498ee87757b7c1799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c5504a298f9da6809a3ff2f6fdd4ae5d') in 0.022227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab
-  artifactKey: Guid(f593bc20677ebf14abd27a4853408c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab using Guid(f593bc20677ebf14abd27a4853408c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '967b7fe6235864d6e7c2f913f82b48a8') in 0.020778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_cloth_00_gauntlets.prefab
-  artifactKey: Guid(1a4b695fc52d58f459ed3e85be7b52e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_cloth_00_gauntlets.prefab using Guid(1a4b695fc52d58f459ed3e85be7b52e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5e4a24704cb02d11a4001eab9a5866d7') in 0.034636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_body.fbx
-  artifactKey: Guid(4ef757cb881efa94b96f7585ee4af53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_body.fbx using Guid(4ef757cb881efa94b96f7585ee4af53b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '45b208b9dedb1d394fc0351dd11d3da7') in 0.041578 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 165
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_boots.prefab
-  artifactKey: Guid(b9100aa189d87db49afdd4bcedc14dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_01_A_boots.prefab using Guid(b9100aa189d87db49afdd4bcedc14dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fba9685269017fa7efbd80147c17d9f4') in 0.037830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_04_anim.fbx
-  artifactKey: Guid(4b59ad7d12df6444c9fe5a31f4439ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Animations/PT_Bow_04_anim.fbx using Guid(4b59ad7d12df6444c9fe5a31f4439ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7973f3a7a69717100223efe9c399a0d8') in 0.034584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_legs.prefab
-  artifactKey: Guid(236c78f128ae26f46a37ce92160f3dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Female_Armor_05_C_legs.prefab using Guid(236c78f128ae26f46a37ce92160f3dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ad72851de3607eb3f4f481c12412ca6') in 0.036739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_05_C_helmet.prefab
-  artifactKey: Guid(80d27ac515a8dbf459212780052ae396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_Armors/Separate_Parts/PT_Male_Armor_05_C_helmet.prefab using Guid(80d27ac515a8dbf459212780052ae396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd0555258a189f75b46cc180a632b7b90') in 0.034226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Weapons/Prefabs/PT_Shield_06_a.prefab
-  artifactKey: Guid(4dc2733e14696c1498ae2db0dc98018c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Weapons/Prefabs/PT_Shield_06_a.prefab using Guid(4dc2733e14696c1498ae2db0dc98018c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f836e218635bcdd064a6c1ba6cf873dc') in 0.028857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Demos/Armors_Free_Pack/Armors_Free_Demo.unity
-  artifactKey: Guid(d4982469e0cfeb2438e72c6129a8d819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Demos/Armors_Free_Pack/Armors_Free_Demo.unity using Guid(d4982469e0cfeb2438e72c6129a8d819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '90bf6d079f8f0defd7cfe362520b4dfc') in 0.017905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Textures/PT_Armors_Lips_Scars_Mask_01.png
-  artifactKey: Guid(9a688ecd3c6cbee4cb2a528bf72399d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Textures/PT_Armors_Lips_Scars_Mask_01.png using Guid(9a688ecd3c6cbee4cb2a528bf72399d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ce08f87e245ccb59fca1b46e569f50ba') in 0.041814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
