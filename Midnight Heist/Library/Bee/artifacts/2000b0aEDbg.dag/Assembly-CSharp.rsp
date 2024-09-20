@@ -332,6 +332,8 @@
 -r:"Library/Bee/artifacts/2000b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/BasicAnimations/Basic Motions/_ExampleScene/Scripts/RootmotionReset.cs"
+"Assets/BasicAnimations/Basic Motions/_ExampleScene/Scripts/RPMaterialLoader.cs"
 "Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs"
 "Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/Scripts/MainMenu.cs"
