@@ -10,9 +10,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void GoToSettingsMenu()
+    public void GoToOptionsMenu()
     {
-        SceneManager.LoadScene("SettingsMenu");
+        SceneManager.LoadScene("OptionsMenu");
     }
 
     public void GoToMainMenu()
