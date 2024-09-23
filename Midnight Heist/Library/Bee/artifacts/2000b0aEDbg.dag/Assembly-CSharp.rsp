@@ -337,6 +337,7 @@
 "Assets/FantasyEnvironments/Environments/Town/Scripts/Door.cs"
 "Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
